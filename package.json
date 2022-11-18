@@ -3,6 +3,7 @@
     "@mui/lab": "^5.0.0-alpha.103",
     "cloudinary": "^1.32.0",
     "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
     "dialogflow": "^1.2.0",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
@@ -20,7 +21,8 @@
   "type": "module",
   "scripts": {
     "start": "nodemon backend/server.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION = false npm  install  --force --prefix frontend && npm run build --prefix frontend"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION = false npm  install  --force --prefix frontend && npm run build --prefix frontend",
+    "NODE_ENV": "production npm start"
   },
   "author": "Arvind",
   "license": "ISC",
