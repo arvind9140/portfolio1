@@ -21,8 +21,8 @@
   "type": "module",
   "scripts": {
     "start": "nodemon backend/server.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION = false npm  install  --force --prefix frontend && npm run build --prefix frontend",
-    "NODE_ENV": "production npm start"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION = false npm  install  --force --prefix frontend && npm run build --prefix frontend"
+    
   },
   "author": "Arvind",
   "license": "ISC",
