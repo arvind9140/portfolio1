@@ -1,6 +1,6 @@
 import mongoose  from "mongoose";
 export const connectDatabase = () => {
-  const MONGO_URI = "mongodb+srv://arvi123:arvi123@arvidarpan.jkk1cpr.mongodb.net/ArviDarpan"
+  const MONGO_URI = process.env.MONGO_URI
     mongoose
       .connect(MONGO_URI)
       .then((c) => {
