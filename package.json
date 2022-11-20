@@ -13,9 +13,8 @@
     "nodemailer": "^6.8.0",
     "nodemon": "^2.0.20",
     "type": "^2.7.2",
-    "uuid": "^9.0.0",
-   " npm": "8.19.1",
-   "node": "18.10.0"
+    "uuid": "^9.0.0"
+  
   },
   "name": "portfolio",
   "version": "1.0.0",
@@ -28,8 +27,13 @@
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION = false npm  install  --force --prefix frontend && npm run build --prefix frontend"
     
   },
+  "engines":{
+    " npm": "8.19.1",
+    "node": "18.10.0"
+  },
   "author": "Arvind",
   "license": "ISC",
   "description": ""
 }
+
 
