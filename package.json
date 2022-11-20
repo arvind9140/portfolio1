@@ -15,7 +15,8 @@
     "nodemon": "^2.0.20",
     "tls": "^0.0.1",
     "type": "^2.7.2",
-    "uuid": "^9.0.0"
+    "uuid": "^9.0.0",
+    "webpack-cli": "^5.0.0"
   },
   "name": "portfolio",
   "version": "1.0.0",
