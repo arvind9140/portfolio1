@@ -26,7 +26,7 @@
     "build": "if [ $BUILD_ASSETS ]; then npm run build-assets; fi",
     "build-assets": "bower install && grunt build",
     "start": "nodemon backend/server.js",
-    "heroku-postbuild": "webpack --config webpack.prod.js"
+    "heroku-postbuild": "webpack --config webpack.frontend"
   },
   "engines": {
     " npm": "8.19.1",
